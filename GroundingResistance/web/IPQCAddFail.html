@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".tip").fadeIn(200);
+
+            $(".tiptop a").click(function () {
+                $(".tip").fadeOut(200);
+                location.href = 'addpole.aspx';
+            });
+
+            $(".sure").click(function () {
+                $(".tip").fadeOut(100);
+
+            });
+
+            $(".cancel").click(function () {
+                $(".tip").fadeOut(100);
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <div class="tip">
+        <div class="tiptop"><span>提示信息</span><a></a></div>
+
+        <div class="tipinfo">
+            <span>
+                <img src="images/ticon.png" />
+            </span>
+            <div class="tipright">
+                <p>提交失败</p>
+                <cite>请检查信息是否正确！</cite>
+            </div>
+        </div>
+        <div class="tipbtn">
+            <input name="" type="button" class="sure" onclick="location.href='IPQCAdd.aspx';" value="确定" />&nbsp;
+            <input name="" type="button" class="cancel" onclick="location.href = 'IPQCAdd.aspx';" value="取消" />
+        </div>
+    </div>
+</body>
+</html>

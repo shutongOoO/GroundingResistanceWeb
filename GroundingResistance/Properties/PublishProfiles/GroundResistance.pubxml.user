@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>H:\板房干的活\接地电阻web服务器软件\groundresistance</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>12/21/2017 20:23:44</publishTime>
+    </File>
+    <File Include="bin/GroundingResistance.dll">
+      <publishTime>06/01/2018 09:48:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>03/23/2018 15:09:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>04/25/2018 16:02:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>04/25/2018 16:02:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>04/25/2018 16:02:25</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/01/2018 09:48:46</publishTime>
+    </File>
+    <File Include="web/addpole.aspx">
+      <publishTime>05/09/2018 09:39:32</publishTime>
+    </File>
+    <File Include="web/administrator.aspx">
+      <publishTime>05/15/2018 15:45:33</publishTime>
+    </File>
+    <File Include="web/css/select.css">
+      <publishTime>04/26/2018 13:39:09</publishTime>
+    </File>
+    <File Include="web/css/style.css">
+      <publishTime>05/08/2018 20:51:41</publishTime>
+    </File>
+    <File Include="web/default.html">
+      <publishTime>12/23/2013 10:29:52</publishTime>
+    </File>
+    <File Include="web/delete.aspx">
+      <publishTime>05/08/2018 21:03:27</publishTime>
+    </File>
+    <File Include="web/editor/kindeditor.js">
+      <publishTime>04/26/2018 13:40:18</publishTime>
+    </File>
+    <File Include="web/editor/plugins/about.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_01.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_02.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_03.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_04.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_05.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_06.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_07.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_08.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_09.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_10.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_11.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_12.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_13.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_14.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_15.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_16.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_17.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_18.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_19.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_20.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_21.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_22.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_23.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_24.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_25.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_26.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_27.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_28.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_29.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_30.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_31.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_32.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_33.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_34.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_35.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/emoticons/etc_36.gif">
+      <publishTime>04/26/2018 13:42:09</publishTime>
+    </File>
+    <File Include="web/editor/plugins/flash.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/image.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/link.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/media.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/plainpaste.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/remote_image.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/plugins/wordpaste.html">
+      <publishTime>04/26/2018 13:41:21</publishTime>
+    </File>
+    <File Include="web/editor/skins/default.css">
+      <publishTime>04/26/2018 13:40:46</publishTime>
+    </File>
+    <File Include="web/editor/skins/default.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/div.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/dl.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/editor.css">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/ol.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/p.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/tinymce.css">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/tinymce.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/editor/skins/ul.gif">
+      <publishTime>04/26/2018 13:40:47</publishTime>
+    </File>
+    <File Include="web/error.html">
+      <publishTime>12/23/2013 10:29:52</publishTime>
+    </File>
+    <File Include="web/fail.html">
+      <publishTime>05/08/2018 15:41:49</publishTime>
+    </File>
+    <File Include="web/historiedData.aspx">
+      <publishTime>05/10/2018 16:05:55</publishTime>
+    </File>
+    <File Include="web/images/001.jpg">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/404.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/add.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/btnbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/btnbg1.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/btnbg2.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/buttonbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/c01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/c02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/c03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/cbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/clist.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/close.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/close1.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/cloud.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d05.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d06.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/d07.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/diskbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/dp.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/f01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/f02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/f03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/f04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/f05.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/f06.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/help.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i05.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i06.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i07.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i08.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/i09.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/iadd.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ibtnbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ico01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ico02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ico03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ico04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ico05.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/ico06.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/icon01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/icon02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/icon03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/icon04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/icon05.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/icon06.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img05.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img06.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img07.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img08.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img09.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img10.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img11.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img12.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img13.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img14.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/img15.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/inputbg.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/itabbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/itabbg1.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftico.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftico01.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftico02.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftico03.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftico04.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftline.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/leftmenubg.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/lefttop.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/libg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/light.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/line.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/line1.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/list.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/list1.gif">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/list2.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginbg1.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginbg2.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginbg3.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/logininfo.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginlogo.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginpassword.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginsj.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/loginuser.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/logo.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/msg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/navbg.png">
+      <publishTime>04/26/2018 13:39:33</publishTime>
+    </File>
+    <File Include="web/images/next.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/pre.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/px.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/righttop.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/rlist.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/search.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/sj.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/sun.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/t01.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/t02.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/t03.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/t04.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/t05.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/tbg.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/tcbg.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/th.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/ticon.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/time.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/toolbg.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/topbg.gif">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/topleft.jpg">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/topright.jpg">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/ub1.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/uew_icon.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/uew_icon_hover.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/ulist.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/user.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/images/userbg.png">
+      <publishTime>04/26/2018 13:39:34</publishTime>
+    </File>
+    <File Include="web/index.html">
+      <publishTime>05/11/2018 08:53:50</publishTime>
+    </File>
+    <File Include="web/IPQCAdd.aspx">
+      <publishTime>05/15/2018 15:50:43</publishTime>
+    </File>
+    <File Include="web/IPQCAddFail.html">
+      <publishTime>05/15/2018 15:44:28</publishTime>
+    </File>
+    <File Include="web/IPQCDelete.aspx">
+      <publishTime>05/15/2018 15:54:32</publishTime>
+    </File>
+    <File Include="web/IPQCModify.aspx">
+      <publishTime>05/15/2018 11:45:59</publishTime>
+    </File>
+    <File Include="web/js/cloud.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/format+zh_CN,default,corechart.I.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/jquery.ba-resize.min.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/jquery.gvChart-1.0.1.min.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/jquery.idTabs.min.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/jquery.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/jsapi.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/PIE.htc">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/js/select-ui.min.js">
+      <publishTime>04/26/2018 13:38:32</publishTime>
+    </File>
+    <File Include="web/left.html">
+      <publishTime>05/10/2018 16:00:22</publishTime>
+    </File>
+    <File Include="web/login.aspx">
+      <publishTime>05/18/2018 15:05:54</publishTime>
+    </File>
+    <File Include="web/login.html">
+      <publishTime>05/14/2018 14:34:35</publishTime>
+    </File>
+    <File Include="web/main.html">
+      <publishTime>12/23/2013 10:29:52</publishTime>
+    </File>
+    <File Include="web/modify.aspx">
+      <publishTime>05/09/2018 09:39:33</publishTime>
+    </File>
+    <File Include="web/right.aspx">
+      <publishTime>05/10/2018 16:05:55</publishTime>
+    </File>
+    <File Include="web/src/jquery.gvChart-1.0.1.js">
+      <publishTime>04/26/2018 13:37:53</publishTime>
+    </File>
+    <File Include="web/sucess.html">
+      <publishTime>05/18/2018 15:04:40</publishTime>
+    </File>
+    <File Include="web/top.html">
+      <publishTime>05/18/2018 15:05:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
